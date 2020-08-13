@@ -9,9 +9,11 @@ import initialState from './initialState';
 
 const store = createStore(reducer, initialState);
 
-ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('app'),
+ReactDOM.render( <
+    Provider store = { store } >
+    <
+    App / >
+    <
+    /Provider>,
+    document.getElementById('app'),
 );
